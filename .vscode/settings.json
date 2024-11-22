@@ -1,0 +1,47 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true
+    },
+    "explorer.compactFolders": false,
+    "python.analysis.autoFormatStrings": true,
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": "never",
+            "source.organizeImports": "always"
+        },
+    },
+    // *** Extensión Djlint
+    "djlint.profile": "django",
+    "djlint.useGitignore": true,
+    "djlint.ignore": [
+        "H021",
+        "H030",
+        "H031",
+        "T002"
+    ],
+    "djlint.blankLineBeforeTag": [
+        "block"
+    ],
+    "djlint.blankLineAfterTag": [
+        "load",
+        "extends",
+        "endblock"
+    ],
+    "djlint.maxLineLength": 100,
+    "djlint.lineBreakAfterMultilineTag": false,
+    "djlint.closeVoidTags": true,
+    "djlint.formatAttributeTemplateTags": true,
+    "djlint.formatCss": true,
+    "djlint.formatJs": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+    },
+}
