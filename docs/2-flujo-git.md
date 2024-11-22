@@ -18,7 +18,10 @@
 
 Nota: si no llegara a abrirse VSCode, abrirlo de la forma habitual, y luego en el menú elegir 'Archivo' y 'Abrir Carpeta', y buscar la carpeta creada por git clone.
 
-- Con `uv` crear el entorno virtual y agregar django y las dependencias necesarios. [Ver los pasos en el archivo: proyectos-y-entornos.md](proyectos-y-entornos.md)
+- Con `uv` crear el entorno virtual y agregar django y las dependencias necesarios.
+
+[Leer: Adminstración de proyectos y entornos virtuales](1-proyectos-y-entornos.md)
+
 
 ## Uso de Git
 
@@ -46,7 +49,7 @@ Luego, crear un commit con un mensaje:
 
     git commit -m "Comentario sobre los cambios hechos"
 
-[Para algunas sugerencias sobre los mensajes, ver el archivo: mensajes-commit.md](mensajes-commit.md)
+[Leer: Convenciones de mensajes de commit](3-mensajes-commit.md)
 
 Una vez que se terminaron de hacer todos los commits necesarios y se los quiere fusionar a la rama principal, tener cuidado de no dejar archivos con cambios sin commit. Pararse en la rama principal:
 

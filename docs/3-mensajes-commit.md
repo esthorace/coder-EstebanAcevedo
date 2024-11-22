@@ -1,4 +1,4 @@
-# Mensajes de commit
+# Convenciones de mensajes de commit
 
 Tener convenciones para los mensajes de commit es fundamental porque:
 

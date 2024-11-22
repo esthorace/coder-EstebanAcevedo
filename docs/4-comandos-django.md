@@ -30,8 +30,6 @@ Crear una aplicación:
 
 Registrar la aplicación src/config/settings.py
 
-    INSTALLED_APPS = [
-        ...
+    INSTALLED_APPS += [
         'core',
     ]
-
